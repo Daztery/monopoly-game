@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Sprites Jugador">
+      <UniqueIdentifier>{b8b2b54e-4dd7-43bc-93ec-41fb82952634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sprites Dado">
+      <UniqueIdentifier>{0778c8f0-1841-4e99-85be-bb419cd8ec02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Mapa">
+      <UniqueIdentifier>{12f1520c-f094-4f0c-a92e-216a1cfddf8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jugador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Propiedad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrJug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jugador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Propiedad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrJug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Imagenes\sprites\Barco.png">
+      <Filter>Resource Files\Sprites Jugador</Filter>
+    </Image>
+    <Image Include="..\Imagenes\sprites\bota.png">
+      <Filter>Resource Files\Sprites Jugador</Filter>
+    </Image>
+    <Image Include="..\Imagenes\sprites\caballo.png">
+      <Filter>Resource Files\Sprites Jugador</Filter>
+    </Image>
+    <Image Include="..\Imagenes\sprites\carro.png">
+      <Filter>Resource Files\Sprites Jugador</Filter>
+    </Image>
+    <Image Include="..\Imagenes\sprites\cosa.png">
+      <Filter>Resource Files\Sprites Jugador</Filter>
+    </Image>
+    <Image Include="..\Imagenes\sprites\plancha.png">
+      <Filter>Resource Files\Sprites Jugador</Filter>
+    </Image>
+    <Image Include="..\Imagenes\sprites\sombrero.png">
+      <Filter>Resource Files\Sprites Jugador</Filter>
+    </Image>
+    <Image Include="1.jpg">
+      <Filter>Resource Files\Sprites Dado</Filter>
+    </Image>
+    <Image Include="2.jpg">
+      <Filter>Resource Files\Sprites Dado</Filter>
+    </Image>
+    <Image Include="3.jpg">
+      <Filter>Resource Files\Sprites Dado</Filter>
+    </Image>
+    <Image Include="4.jpg">
+      <Filter>Resource Files\Sprites Dado</Filter>
+    </Image>
+    <Image Include="5.jpg">
+      <Filter>Resource Files\Sprites Dado</Filter>
+    </Image>
+    <Image Include="6.jpg">
+      <Filter>Resource Files\Sprites Dado</Filter>
+    </Image>
+    <Image Include="Tablero2.jpg">
+      <Filter>Resource Files\Mapa</Filter>
+    </Image>
+    <Image Include="derecha.png">
+      <Filter>Resource Files\Mapa</Filter>
+    </Image>
+    <Image Include="Elegir.jpg">
+      <Filter>Resource Files\Mapa</Filter>
+    </Image>
+    <Image Include="izquierda.png">
+      <Filter>Resource Files\Mapa</Filter>
+    </Image>
+    <Image Include="Game Over.jpg">
+      <Filter>Resource Files\Mapa</Filter>
+    </Image>
+    <Image Include="Tablero2 - copia.jpg">
+      <Filter>Resource Files\Mapa</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
